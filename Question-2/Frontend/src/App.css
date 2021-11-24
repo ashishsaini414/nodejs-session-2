@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+div button {
+  border: none;
+  font-size: 18px;
+  color: black;
+  margin: 0 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+div button:active {
+  color: green;
+}
+.table {
+  border: 1px solid black;
+  margin: 5rem auto;
+  border-collapse: collapse;
+  display: inline-block;
+}
+.mythead {
+  border: 1px solid black;
+}
+
+thead tr {
+  background-color: rgb(117, 179, 179);
+  margin: 20px;
+}
+tbody tr {
+  background-color: rgb(202, 92, 59);
+}
+tbody th {
+  display: inline-block;
+  margin: 10px;
+}
